@@ -1,0 +1,14 @@
+
+h1{
+        color: cyan;
+}
+.Div1{
+        margin: auto;
+        width: 50%;
+        border: 2px dotted blue;
+        padding: 10px;
+        
+}
+.Div2{
+        width: 60%;
+}
