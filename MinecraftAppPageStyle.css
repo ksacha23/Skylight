@@ -1,4 +1,4 @@
-/* Venmo App Page Style */
+/* Minecraft App Page Style */
 
 body{
 	font-family: helvetica;
@@ -57,7 +57,7 @@ input{
 	display: flex;
 }
 
-#VenmoLogo{
+#MinecraftLogo{
 	padding: 5px;
 	width: 100px;
 	border-radius: 25%;
