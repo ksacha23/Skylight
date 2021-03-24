@@ -11,6 +11,7 @@ body{
 header{
 	display: flex;
 	margin: auto;
+	/*background-color: mediumpurple;*/
 }
 
 #webTitle{
@@ -28,6 +29,7 @@ button{
 }
 
 nav{
+	/*background-color: orchid;*/
 	font-size: 18px;
 }
 
