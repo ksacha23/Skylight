@@ -14,6 +14,10 @@ header{
 	/*background-color: mediumpurple;*/
 }
 
+hr{
+	border: 1px solid black;
+}
+
 #webTitle{
 	padding-right: 80%;
 }
