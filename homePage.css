@@ -56,22 +56,4 @@ a:link{
 #mainLogo {
 	text-align: center;
 	font-size: 89px;
-}
-
-.search-container {
-	position: absolute; 
-	top: 50%;
-	left: 28%; 
-	
-}
-.searchbar {
-	position: absolute; 
-	top: 50%; 
-	left: 40%; 
-	height: 15px;
-	width: 100px; 
-} 
-input.searchbar {
-	height: 30px;
-	width: 550px;
 } 
