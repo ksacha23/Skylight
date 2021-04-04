@@ -1,3 +1,9 @@
+<!--
+	Sign In Page
+	Kamil Sacha and Tyler Albers
+	Last Update: April 04, 2021
+-->
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -10,7 +16,7 @@
 			<h1 id="webTitle">Skylight</h1>
 			<h3 id="slogan">Discover something new</h3>
 			<a href="skylightSignUp.html"><button>Sign In</button></a>
-			<button>New User</button>	
+			<a href="SignUpPage.html"><button>New User</button></a>	
 		</header>
 		<hr>
 		<nav>
@@ -18,19 +24,19 @@
 			<a href="AppPage.html">Discover</a>
 			<a href="discuss">Discuss</a>
 			<a href='applicationSubmissionForm.html'>Submit an App Request</a>
-			<input type="text" placeholder="Search...">
+			<input type="text" placeholder="Search..." id="navSearch">
 		</nav>
 		<hr>
 
-		<div class="Div1">
+		<div id="signIn">
 			<form>
-				<label for="userName"> User Name: </label>
-				<input type="text" id="userName" name="userName" value=""><br>
+				<label for="userName">Username:</label>
+				<input type="text" id="userName" name="userName" value="">
+				<br><br>
 				<label for="password"> Password: </label>
-				<input type="text" id="password" name="password" value=""><br>
-				<div class="Div2">
-					<input type="submit" id="submitButton">
-				</div>
+				<input type="text" id="password" name="password" value="">
+				<br><br>
+				<input type="submit" id="submitButton">
 			</form>
 		</div>
 	</body>

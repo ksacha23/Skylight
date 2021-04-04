@@ -1,4 +1,6 @@
-/* Spotify App Page Style */
+/* 	Spotify App Page Style 
+	Kamil Sacha
+	Last Update: April 04, 2021*/
 
 body{
 	font-family: helvetica;
@@ -11,7 +13,6 @@ body{
 header{
 	display: flex;
 	margin: auto;
-	/*background-color: mediumpurple;*/
 }
 
 hr{
@@ -19,21 +20,19 @@ hr{
 }
 
 #webTitle{
-	padding-right: 80%;
+	padding-right: 65%;
 }
 
 #slogan{
-	padding-right: 25px;
+	padding-right: 5px;
 }
 
 button{
-	margin: 10px;
 	height: 35px;
-	width: auto;
+	width: 90px;
 }
 
 nav{
-	/*background-color: orchid;*/
 	font-size: 18px;
 }
 
@@ -55,8 +54,10 @@ a:link{
 	text-decoration: none;
 }
 
-input{
-	margin-left: 90%; 
+#navSearch{
+	position: relative;
+	float: right;
+	right: 2.5%;
 }
 
 #appVisual{

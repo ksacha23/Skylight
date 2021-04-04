@@ -1,6 +1,7 @@
-/* 	Minecraft App Page Style 
-	Kamil Sacha
-	Last Update: April 04, 2021
+/*
+    Application Submission Form Style
+    Kamil Sacha
+    Last Update: April 04, 2021
 */
 
 body{
@@ -59,14 +60,4 @@ a:link{
 	position: relative;
 	float: right;
 	right: 2.5%;
-}
-
-#appVisual{
-	display: flex;
-}
-
-#MinecraftLogo{
-	padding: 5px;
-	width: 100px;
-	border-radius: 25%;
 }
