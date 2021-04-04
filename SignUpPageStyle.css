@@ -1,7 +1,4 @@
-/* 	Skylight Home Page Styling
-	Author: Kamil Sacha
-	Last Update: April 04, 2021
-*/
+/* Sign Up Page Style */
 
 body{
 	font-family: helvetica;
@@ -21,16 +18,17 @@ hr{
 }
 
 #webTitle{
-	padding-right: 65%;
+	padding-right: 80%;
 }
 
 #slogan{
-	padding-right: 5px;
+	padding-right: 25px;
 }
 
 button{
+	margin: 10px;
 	height: 35px;
-	width: 90px;
+	width: auto;
 }
 
 nav{
@@ -55,20 +53,6 @@ a:link{
 	text-decoration: none;
 }
 
-#navSearch{
-	position: relative;
-	float: right;
-	right: 2.5%;
-}
-
-#logoSearch{
-	text-align: center;
-}
-
-#mainLogo{
-	font-size: 90px;
-}
-
-#appSearch{
-	font-size: 25px;
+#SignUpBody{
+    text-align: center;
 }

@@ -1,7 +1,7 @@
 <!-- 
 Title: Skylight Home Page 
 Class: CSE 201 D
-Author: Regina Garza 
+Author: Regina Garza and Kamil Sacha
 Start Date: 21 Mar 2021 
 
 This is the home page of Skylight which will allow the user to search for apps in our database, navigate to the sign in page, and navigate to the app submission form. 
@@ -21,7 +21,7 @@ This is the home page of Skylight which will allow the user to search for apps i
 		<h1 id="webTitle">Skylight</h1>
 		<h3 id="slogan">Discover something new</h3>
 		<a href="skylightSignUp.html"><button>Sign In</button></a>
-		<button>New User</button>	
+		<a href="SignUpPage.html"><button>New User</button></a>	
 	</header>
 	<hr>
 	<nav>
@@ -29,10 +29,14 @@ This is the home page of Skylight which will allow the user to search for apps i
 		<a href="AppPage.html">Discover</a>
 		<a href="discuss">Discuss</a>
 		<a href='applicationSubmissionForm.html'>Submit an App Request</a>
-		<input type="text" placeholder="Search...">
+		<input type="text" placeholder="Search..." id="navSearch">
 	</nav>
 	<hr>
-
-<h1 id="mainLogo">Skylight</h1>
+	<div id=logoSearch>
+		<h1 id="mainLogo">Skylight</h1>
+		<form>
+			<input type="text" placeholder="Search Apps" id="appSearch">
+		</form>
+	</div>
 </body>
 </html>
