@@ -64,3 +64,8 @@ a:link{
 #SignUpBody{
     text-align: center;
 }
+
+#labelTable{
+	margin-left: auto;
+	margin-right: auto;
+}
