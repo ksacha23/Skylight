@@ -1,7 +1,13 @@
 <?php
-// database connection code
-$conn = mysqli_connect("localhost","root" ,"","app_db");
 
+// Database connection variables 
+$db_host = "localhost:3306";
+$db_user = "root";
+$db_passw = "ReginaG1998!";
+$db_name = "app_db";
+
+// Database connection code
+$conn =  mysqli_connect($db_host, $db_user, $db_passw, $db_name);
 
 // get the post records
 $appName = $_POST['appName'];
@@ -12,15 +18,16 @@ $appVersions = $_POST['appVersions'];
 $appDescription = $_POST['appDescription'];
 
 // database insert SQL code
-$sql = "INSERT INTO `app_tbl` (`appName`, `devName`, `devSitURL`, `appPlatforms`,`appVersions`, `appDescription`) VALUES ('$appName', '$devName', '$devSiteURl', '$appPlatforms', '$appVersions', '$appDescription')";
+$sql = "INSERT INTO `app_tbl` (`appName`, `devName`, `devSiteURL`, `appPlatforms`,`appVersions`, `appDescription`) VALUES ('$appName', '$devName', '$devSiteURL', '$appPlatforms', '$appVersions', '$appDescription')";
 
-// insert in database 
-$result = mysqli_query($conn, $sql);
 
-if($result)
-{
-	echo "Application Submission Recieved.";
+if($conn->query($sql) === TRUE) {
+	echo "Application Submission Accepted. Status: Pending Approval";
+} else {
+	echo "Error: " . $sql . "<br>" . $conn->error;
 }
+// Close Connection
+$conn->close();
 
 ?>
 
