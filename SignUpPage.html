@@ -13,7 +13,7 @@
 <head>
 	<title>Sign Up</title>
 	<link rel="stylesheet" href="SignUpPageStyle.css" type="text/css">
-	<script type="text/javascript" src="ValidateSignUpPage.js"></script>
+	<script type="text/javascript" src="Skylight.js"></script>
 </head>
 
 <body>
@@ -34,23 +34,23 @@
 	<hr>
 	<div id="SignUpBody">
 		<h2>Sign Up</h2>
-		<form name="signUpForm" action="" method="post">
+		<form name="signUpForm" action="/contact.php" onsubmit="return Skylight.js" method="post">
 			<table id="labelTable">
 				<tr>
 					<td><label for="email">E-mail:</label></td>
-					<td><input type="text" id="email" name="email"></td>
+					<td><input type="text" name="email" required></td>
 				</tr>
 				<tr>
 					<td><label for="uname">Username:</label></td>
-					<td><input type="text" id="uname" name="uname"></td>
+					<td><input type="text" name="uname" required></td>
 				</tr>
 				<tr>
 					<td><label for="pword">Password:</label></td>
-					<td><input type="text" id="pword" name="pword"></td>
+					<td><input type="password" name="pword" required></td>
 				</tr>
 				<tr>
-					<td><label for="pword2">Retype Password:</label></td>
-					<td><input type="text" id = "pword2" name="pword2"></td>
+					<td><label for="pword-repeat">Retype Password:</label></td>
+					<td><input type="password" name="pword-repeat" required></td>
 				</tr>
 			</table>
 			<br><br>
