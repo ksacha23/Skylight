@@ -14,10 +14,12 @@ CSE 201 Project Skylight
 
 
 **Credits**
-
 Project Manager: Max Zaremba
+
 Technical Manager: Kamil Sacha
+
 Developer: Regina Garza
+
 Developer: Tyler Albers
 
 
