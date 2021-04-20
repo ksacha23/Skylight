@@ -1,16 +1,16 @@
 # Skylight
 CSE 201 Project Skylight
 
-**Description**
+<ins>**Description**</ins>
 
 
-**Installation**
+<ins>**Installation**</ins>
 
 
-**Usage**
+<ins>**Usage**</ins>
 
 
-**Contributions**
+<ins>**Contributions**</ins>
 
 
 <ins>**Credits**</ins> <br>
