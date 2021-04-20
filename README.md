@@ -13,7 +13,7 @@ Usage
 Contributions
 
 
-Credits
+**Credits**
 
 Project Manager: Max Zaremba
 
