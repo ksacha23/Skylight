@@ -1,26 +1,23 @@
 # Skylight
 CSE 201 Project Skylight
 
-Description
+**Description**
 
 
-Installation
+**Installation**
 
 
-Usage
+**Usage**
 
 
-Contributions
+**Contributions**
 
 
 **Credits**
 
 Project Manager: Max Zaremba
-
 Technical Manager: Kamil Sacha
-
 Developer: Regina Garza
-
 Developer: Tyler Albers
 
 
