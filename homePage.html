@@ -3,9 +3,7 @@ Title: Skylight Home Page
 Class: CSE 201 D
 Author: Regina Garza and Kamil Sacha
 Start Date: 21 Mar 2021 
-
 This is the home page of Skylight which will allow the user to search for apps in our database, navigate to the sign in page, and navigate to the app submission form. 
-
 -->
 
 <!DOCTYPE html>
@@ -20,8 +18,8 @@ This is the home page of Skylight which will allow the user to search for apps i
 	<header>
 		<h1 id="webTitle">Skylight</h1>
 		<h3 id="slogan">Discover something new</h3>
-		<a href="skylightSignUp.html"><button>Sign In</button></a>
-		<a href="SignUpPage.html"><button>New User</button></a>	
+		<a href="signIn.html"><button>Sign In</button></a>
+		<a href="contact.html"><button>New User</button></a>	
 	</header>
 	<hr>
 	<nav>
@@ -34,9 +32,12 @@ This is the home page of Skylight which will allow the user to search for apps i
 	<hr>
 	<div id=logoSearch>
 		<h1 id="mainLogo">Skylight</h1>
-		<form>
-			<input type="text" placeholder="Search Apps" id="appSearch">
+		<fieldset>
+		<form name="searchForm" method="post" action="search.php">
+			<input type="text" placeholder="Search Apps" id="appSearch" name="appSearch">
+			<input type="submit" name="Submit" id="Submit" value="Submit">
 		</form>
+		</fieldset>
 	</div>
 </body>
 </html>

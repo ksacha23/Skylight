@@ -7,36 +7,25 @@
     exit();
   }
   
-  $uname = $_POST['uname'];
-  $pword = $_POST['pword'];
+  $username = $_POST['uname'];
+  //echo $_REQUEST['uname'];
+  
+  $password = $_POST['pword'];
+  //echo $_REQUEST['pword'];
   
   // get data from db
-  $result = mysqli_query($con,"SELECT uname, pword FROM tbl_contact ");
-
-//      echo "<table border='1'>
-//<tr>
-//<th>Username</th>
-//<th>Password</th>
-//</tr>";
-//      
-//      while($row = mysqli_fetch_array($result))
-//        {
-//          echo "<tr>";
-//          echo "<td>" . $row['uname'] . "</td>";
-//          echo "<td>" . $row['pword'] . "</td>";
-//          echo "</tr>";
-//        }
-//      echo "</table>";
-//      
-//    
-//  
-//  
-//  mysqli_close($con);
+  $result = mysqli_query($con,"SELECT * FROM tbl_contact where uname = '" . mysqli_real_escape_string($con, $username) . "'"); 
   
-  if ($row = mysqli_fetch_array($result)){
-    header('Location: homePage.html');
-    exit;
-  }
+  while($row = mysqli_fetch_array($result))
+    {
+      header('Location: homePage.html');
+      exit();
+    } 
+      //Print("inccorect username or password");
+      header("Location: signInfail.html");
+      exit();
+  
+
   mysqli_close($con);
   
 ?>

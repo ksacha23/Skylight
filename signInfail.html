@@ -1,0 +1,48 @@
+<!--
+	Sign In Page
+	Kamil Sacha and Tyler Albers
+	Last Update: April 04, 2021
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="signIn.css">
+		<meta charset="UTF-8">
+		<title>Sign In</title>
+	</head>
+	<body>
+		<header>
+			<h1 id="webTitle">Skylight</h1>
+			<h3 id="slogan">Discover something new</h3>
+			<a href="signIn.html"><button>Sign In</button></a>
+			<a href="contact.html"><button>New User</button></a>	
+		</header>
+		<hr>
+		<nav>
+			<a href="homePage.html">Home</a>
+			<a href="AppPage.html">Discover</a>
+			<a href="discuss">Discuss</a>
+			<a href='applicationSubmissionForm.html'>Submit an App Request</a>
+			<input type="text" placeholder="Search..." id="navSearch">
+		</nav>
+		<hr>
+
+		<div id="signIn">
+			<fieldset> 
+				<legend>Username or Password Incorrect, Please Try Again</legend>
+				<form name="frmContact" method="post" action="signInCheck.php">
+			
+				<label for="userName">Username:</label>
+				<input type="text" id="uname" name="uname" value="">
+				<br><br>
+				<label for="password"> Password: </label>
+				<input type="text" id="pword" name="pword" value="">
+				<br><br>
+				<input type="submit" name="Submit" id="Submit" value="Submit">
+			</form>
+			</fieldset>
+		</div>
+	</body>
+</html>
+
