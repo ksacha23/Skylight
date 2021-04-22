@@ -1,6 +1,6 @@
-/* 	Skylight Home Page Styling
-	Author: Kamil Sacha
-	Last Update: April 04, 2021
+/* 	Contact Page Style 
+	Kamil Sacha
+	Last Update: April 22, 2021
 */
 
 body{
@@ -61,26 +61,10 @@ a:link{
 	right: 2.5%;
 }
 
-#logoSearch{
-	text-align: center;
-}
-
-#mainLogo{
-	font-size: 90px;
-}
-
-#appSearch{
-	font-size: 20px;
-	height: 30px;
-	width: 300px;
-}
-
-#SubmitButton{
-	height: 30px;
-	width: 75px;
-	font-size: 16px;
+#SignUpBody{
+    text-align: center;
 }
 
 fieldset{
-	border: none;
+    border: none;
 }

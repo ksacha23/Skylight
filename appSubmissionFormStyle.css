@@ -61,3 +61,7 @@ a:link{
 	float: right;
 	right: 2.5%;
 }
+
+fieldset{
+	border: none;
+}
