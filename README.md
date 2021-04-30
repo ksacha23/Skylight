@@ -1,7 +1,7 @@
 # Skylight
 CSE 201 Project Skylight
 
-<ins>**Description**</ins>
+<ins>***Description***</ins>
 
 
 <ins>**Installation**</ins>
